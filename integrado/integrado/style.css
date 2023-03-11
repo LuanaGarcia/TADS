@@ -1,0 +1,55 @@
+body {
+    /* retirar a margem do body */
+    margin: 0;
+    /* cor de fundo */
+    background: #F1F1F1;
+    /* fontes */
+    font-family: Arial, Verdana;
+}
+header, footer {
+    background: #FFF;
+    /* sombra - ed cb opa cor */
+    box-shadow: 0 0 20px #999;
+    /* margem interna */
+    padding: 10px;
+    /* obriga a ficar do tam. width */
+    display: inline-block;
+    /* largura */
+    width: 100%;
+    /* retirar o padding do valor do obj */
+    box-sizing: border-box;
+}
+footer p {
+    text-align: center;
+}
+nav {
+    /* joga para esquerda ou direita */
+    float: right;
+    margin-top: 25px;
+}
+nav a {
+    text-decoration: none;
+    color: red;
+    margin: 15px;
+}
+nav a:hover {
+    color: #000;
+}
+section {
+    /* largura */
+    width: 70%;
+    float: left;
+}
+aside {
+    width: 30%;
+    float: right;
+}
+.img {
+    width: 100%;
+}
+section, aside {
+    /* margem interna */
+    padding: 20px;
+    /* retirar o padding do valor do obj */
+    box-sizing: border-box;
+}
