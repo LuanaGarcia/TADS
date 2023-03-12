@@ -1,4 +1,4 @@
-body
+body{
     /*Retirar a margem do body*/
     margin: 0;
     /*cor de fundo*/
@@ -7,12 +7,21 @@ body
     font-family:Arial, Helvetica, sans-serif;
 }
 
-header{
+header, footer{
     background-color: #fff;
     /*Sombra - ed cb opa cor*/
     box-shadow: 0px 0px 20px #666 ;
     /*Margem interna*/
-    padding: 10}
+    padding: 10;
+    /*obriga a ficar do tamanho do width*/
+    display: inline-block;
+    width: 100%;  
+    box-sizing: border-box; 
+}
+
+footer p{
+    text-align: center;
+}
 
 nav{
     /*Joga para esquerta ou direita*/
@@ -24,4 +33,30 @@ nav a{
     text-decoration: none;
     color: red;
     margin: 15px;
+}
+
+nav a:hover{
+    color: black;
+}
+
+section {
+    /*Largura*/
+    width: 70%;
+    float: left;
+}
+
+aside{
+    width: 30%;
+    float: right;
+}
+
+.img{
+    width: 100%;
+}
+
+section, aside{
+    /*Margem interna*/
+    padding: 10px;
+    /*retirr o padding do valor do objeto*/
+    box-sizing: border-box;
 }
