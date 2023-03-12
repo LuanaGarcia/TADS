@@ -2,7 +2,7 @@ body{
     /*Retirar a margem do body*/
     margin: 0;
     /*cor de fundo*/
-    background-color: #f1f1f1;
+    background-color: #ccc;
     /*fontes*/
     font-family:Arial, Helvetica, sans-serif;
 }
@@ -27,6 +27,7 @@ nav{
     /*Joga para esquerta ou direita*/
     float: right;
     margin-top: 25px;
+    
 }
 
 nav a{
@@ -59,4 +60,25 @@ section, aside{
     padding: 10px;
     /*retirr o padding do valor do objeto*/
     box-sizing: border-box;
+}
+
+/*Difinir regra para telas menores que 450px*/
+@media (max-width: 450px){
+    body{
+        background: #999;
+    }
+    section,aside{
+        width: 100%;
+    }
+    p,li{
+        font-size: 20px;
+    }
+    nav{
+        width: 100%;
+        text-align: center;
+    }
+    nav a{
+        width: 100%;
+        display: block;
+    }
 }
