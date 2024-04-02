@@ -1,0 +1,63 @@
+
+p,h1{
+  font-family: Arial, Verdana, Tahoma, sans-serif;
+}
+
+body{
+  background: #333;
+}
+
+.logo{
+text-align: center;
+}
+
+h1{
+  color: red;
+  font-size: 300%;
+  text-align: center;
+}
+
+p{
+  color: yellow;
+  text-align: justify;
+  font-size: 120%;
+ 
+}
+
+.menor{
+  color: red;
+}
+.bann{
+  text-align: center;
+}
+.banner{
+  width: 80%; 
+  border-radius: 10px;
+  border: 1px solid white;
+}
+.post{
+  text-align: center;
+}
+.poster{
+  width: 30%;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+
+.link{
+  text-align: center;
+}
+a{
+  color: yellow;
+  background-color: red;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 100px;
+  padding: 10px;
+  transition: 1s;
+}
+
+a:hover{
+  background: black;
+  color: white;
+}

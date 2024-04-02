@@ -1,0 +1,44 @@
+body{
+  background-color: #ccc;
+}
+
+p{
+  font-family: Arial, sans-serif;
+  color: black;
+  text-align: justify;
+}
+
+
+.center{
+  text-align: center;
+  
+}
+
+.imagem{
+width: 95%;
+border-radius: 10px;
+border: 3.5px solid black;
+/* filtro de imagem antiga.*/
+filter: sepia(1);
+transition: 1s;
+}
+
+/*mudar a cor da imagem quando passa o mouse*/
+.imagem:hover{
+  filter: sepia(0);
+}
+
+a{
+  /*cor de fundo do link*/
+  background: red;
+  color: white;
+  text-decoration: none;
+  /*Borda de fundo do link*/
+  padding: 12px;
+  border-radius: 12px;
+  transition: 1s;
+}
+
+a:hover{
+  background: black;
+}

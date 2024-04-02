@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sputfy</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="imagens/icone.png">
+</head>
+<body>
+    <header>
+      <a href="index.html" title="Home"><img class="logo" src="imagens/logo.png" title="Sputfy" alt="Sputfy">
+      </a>
+
+      <a class="menu" onclick="mostrar()" href="#" title="menu"><img src="imagens/menu.png" title="menu" alt="menu">
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html" title="Home">Home</a></li>
+          <li><a href="sobre.html" title="Sobre">Sobre o Sputfy</a></li>
+          <li><a href="contato.html" title="contato">Entre em contato</a></li>
+        </ul>
+      </nav>
+    
+
+    </header>
+
+      <main>
+
+        <h1>Ultimos lançamentos</h1>
+
+        <div class="grid">
+          <div class="col"><img src="imagens/1.jpg" title="Ramones" alt="Ramones">
+            <p>Ramones</p>
+          </div>
+
+          <div class="col"><img src="imagens/2.jpg" title="Ramones" alt="Ramones">
+            <p>Ramones</p>
+          </div>
+
+          <div class="col"><img src="imagens/3.jpg" title="Ramones" alt="Ramones">
+            <p>Ramones</p>
+          </div>
+
+          <div class="col"><img src="imagens/4.jpg" title="Ramones" alt="Ramones">
+            <p>Ramones</p>
+          </div>
+
+        </div>
+
+
+      </main>
+
+      <footer>
+        <p>
+          <img src="imagens/logob.png" title="Sputfy" alt="Sputfy">
+          <p>
+            Desenvolvido por Luana Garcia, 2023.
+          </p>
+        </p>
+      </footer>
+
+<script>
+  function mostrar(){
+      document.querySelector("nav").classList.toggle("mostrar");
+  }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+body{
+  margin: 0;
+  font-family: inter, tahoma;
+  color: #333;
+}
+
+header{
+  background: #ffe700;
+  width: 100%;
+  box-shadow: 0 0 10px #333;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.logo{
+  width: 200px;
+}
+
+.menu{
+  float: right;
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  margin: 10px;
+}
+
+nav ul{
+  /*Retirar o marcdor*/
+  list-style: none;
+  /*Retirar margem*/
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li{
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+nav ul li a{
+  /*Retirar sublinhado*/
+  text-decoration: none;
+  color: #333;
+  /*colocar em negrito*/
+  font-weight: bold;
+}
+
+.btn{
+  /*tamanho da borda, tipo da bordar e a cor*/
+  border: 1px solid #333;
+  padding: 10px 20px;
+}
+
+nav{
+  display: none;
+}
+
+.mostrar{
+  display: block;
+}
+
+nav ul li i{
+  margin-left: 5px;
+}

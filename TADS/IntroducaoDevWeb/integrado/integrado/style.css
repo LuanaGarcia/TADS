@@ -1,0 +1,84 @@
+body{
+    /*Retirar a margem do body*/
+    margin: 0;
+    /*cor de fundo*/
+    background-color: #ccc;
+    /*fontes*/
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header, footer{
+    background-color: #fff;
+    /*Sombra - ed cb opa cor*/
+    box-shadow: 0px 0px 20px #666 ;
+    /*Margem interna*/
+    padding: 10;
+    /*obriga a ficar do tamanho do width*/
+    display: inline-block;
+    width: 100%;  
+    box-sizing: border-box; 
+}
+
+footer p{
+    text-align: center;
+}
+
+nav{
+    /*Joga para esquerta ou direita*/
+    float: right;
+    margin-top: 25px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: red;
+    margin: 15px;
+}
+
+nav a:hover{
+    color: black;
+}
+
+section {
+    /*Largura*/
+    width: 70%;
+    float: left;
+}
+
+aside{
+    width: 30%;
+    float: right;
+}
+
+.img{
+    width: 100%;
+}
+
+section, aside{
+    /*Margem interna*/
+    padding: 10px;
+    /*retirr o padding do valor do objeto*/
+    box-sizing: border-box;
+}
+
+/*Difinir regra para telas menores que 450px*/
+@media (max-width: 450px){
+    body{
+        background: #999;
+    }
+    section,aside{
+        width: 100%;
+    }
+    p,li{
+        font-size: 20px;
+    }
+    nav{
+        width: 100%;
+        text-align: center;
+    }
+    nav a{
+        width: 100%;
+        display: block;
+    }
+}
