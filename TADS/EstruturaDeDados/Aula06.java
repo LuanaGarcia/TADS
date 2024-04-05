@@ -36,5 +36,8 @@ public class Aula06 {
       System.out.println(lista.get(i));
     }
 
+    lista.clear();
+    System.out.println("O tamanho da lista é: " + lista.size());
+
   }
 }
